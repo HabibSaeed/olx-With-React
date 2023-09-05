@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.subcontainer_allcategories {
+  display: flex;
+  gap: 1%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.container h2 {
+  margin-top: 20px;
+  margin-bottom: 30px !important;
+}
+
+.productssection {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 25vh;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  border: 1px solid #ccd5d6;
+}
+
+.card img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card h5 {
+  margin-left: 13px;
+}
+
+.card p {
+  margin-left: 13px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+
+.card h4 {
+  margin-left: 13px;
+}
+
+h1 {
+  padding: 20px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .subcontainer_allcategories {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .productssection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
